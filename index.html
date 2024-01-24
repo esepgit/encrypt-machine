@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Encryptor Machine | Esepbit</title>
+</head>
+<body>
+  <div class="container">
+    <img src="./assets/atom.svg" alt="">
+    <h1>Encrypt Machine</h1>
+    <div class="form">
+      <textarea id="input-textarea" name="input" cols="30" rows="10" placeholder="Your text here, 
+only lowercase letters are allowed"></textarea>
+      <div class="btn-container">
+        <button id="encrypt">Encrypt</button>
+        <button id="decrypt">Decrypt</button>
+      </div>
+    </div>
+    <div class="output-container">
+      <textarea id="output" cols="30" rows="10" readonly placeholder="Text not found"></textarea>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
