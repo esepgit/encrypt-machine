@@ -6,7 +6,7 @@ App to encrypt and decrypt text with predefined rules
 
 ## Preview
 
-<img src='./assets/preview.png' width='300' />
+<img src='./assets/preview.gif' width='500' />
 
 ## Technologies
 
