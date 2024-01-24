@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-    <img src="./assets/atom.svg" alt="">
+    <img class="atom" src="./assets/atom.svg" alt="">
     <h1>Encrypt Machine</h1>
     <div class="form">
       <textarea id="input-textarea" name="input" cols="30" rows="10" placeholder="Your text here, 
@@ -19,12 +19,18 @@ only lowercase letters are allowed"></textarea>
       <div class="btn-container">
         <button id="encrypt">Encrypt</button>
         <button id="decrypt">Decrypt</button>
+        <button id="clear">Clear</button>
       </div>
     </div>
     <div class="output-container">
       <textarea id="output" cols="30" rows="10" readonly placeholder="Text not found"></textarea>
+      <button id="btn-copy"><img src="./assets/paste-icon.svg" alt="paste icon"></button>
+    </div>
+    <div class="attribution">
+      <p>Coded by <a href="https://github.com/esepgit">Esepbit</a></p>
     </div>
   </div>
+  
   <script src="app.js"></script>
 </body>
 </html>

@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-img {
+.atom {
   width: 30px;
   animation: rotate 3s linear infinite;
 }
@@ -74,10 +74,32 @@ img {
   color: white;
 }
 
+.btn-container #clear {
+  background-color: #dd0000;
+  color: white;
+  width: 50%;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .output-container textarea {
  resize: none;
  text-align: center;
  padding: 3px;
+}
+
+#btn-copy {
+  width: 30px;
+  margin-top: 5px;
+}
+
+.attribution {
+  font-size: 12px;
+  margin-top: 15px;
 }
 
 @keyframes rotate {
@@ -87,5 +109,19 @@ img {
     transform: rotate(180deg);
   } to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 500px;
+  }
+
+  .form textarea {
+    width: 400px;
+  }
+
+  .output-container textarea {
+    width: 400px;
   }
 }
